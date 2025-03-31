@@ -6,7 +6,7 @@ The Pokedex is a web-based application that serves as a central hub for Pokémon
 
 ## Features
 
-* Fetches real-time Pokémon data from the PokéAPI v2 (Documentation).
+* Fetches real-time Pokémon data from the PokéAPI v2 (**[Documentation](https://pokeapi.co/docs/v2#pokemon-section)**).
 
 * Displays Pokémon details, including name, ID, type, and image.
 
@@ -58,7 +58,7 @@ The application retrieves Pokémon data from the PokéAPI v2. Example request:
     .then(response => response.json())
     .then(data => console.log(data));
 
-For more details, visit the PokéAPI documentation.
+For more details, visit the PokéAPI **[documentation](https://pokeapi.co/docs/v2#pokemon-section)**.
 
 ## Future Improvements
 
