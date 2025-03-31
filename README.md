@@ -1,9 +1,71 @@
-# Trilha JS Developer - Pokedex
+# Pokedex - js-developer-pokedex
 
-Funcionamento do Pokedex: 
+## Overview
 
-A Pokedex é uma "central" de informações sobre os pokemons existentes. Nela se pode encontrar basciamente tudo que um treinador precisa saber para ter uma ótima aventura!!
+The Pokedex is a web-based application that serves as a central hub for Pokémon information. It allows users to explore essential details about various Pokémon, providing everything a trainer needs for an exciting adventure!
 
-Atualizações:
+## Features
 
-Foi incluído uma janela para que quando o usuário clicar em algum pokemon, a janela se abrirá e apresentará mais informações sobre o pokemon em questão. Serão apresentadas informações sobre habilidades, stats e até mesmo os moves do jogador.
+* Fetches real-time Pokémon data from the PokéAPI v2 (Documentation).
+
+* Displays Pokémon details, including name, ID, type, and image.
+
+* Interactive modal window that shows additional information when clicking on a Pokémon.
+
+* Provides insights into a Pokémon's abilities, stats, and available moves.
+
+## Technologies Used
+
+* HTML → Structuring the web page.
+
+* CSS → Styling for a clean and minimalistic design.
+
+* JavaScript (ES6+) → Handling API requests and dynamic content updates.
+
+* PokéAPI v2 → Fetching real-time Pokémon data.
+
+## How to Run
+
+1. Clone this repository:
+
+  git clone https://github.com/your-username/pokedex.git
+
+2. Navigate to the project folder:
+
+  cd pokedex
+
+3. Start a local server:
+
+  * Using Live Server (VS Code Extension) or:
+
+  * Using Python:
+
+    python -m http.server 5500
+
+  * Using Node.js:
+
+    npx http-server -p 5500
+
+4. Open the browser and visit:
+
+  http://127.0.0.1:5500/index.html
+
+## API Reference
+
+The application retrieves Pokémon data from the PokéAPI v2. Example request:
+  
+    fetch('https://pokeapi.co/api/v2/pokemon/charizard')
+    .then(response => response.json())
+    .then(data => console.log(data));
+
+For more details, visit the PokéAPI documentation.
+
+## Future Improvements
+
+* Implement a search feature for quick Pokémon lookup.
+
+* Add pagination for better browsing experience.
+
+* Improve UI/UX with animations and responsiveness.
+
+Made with ❤️ using JavaScript, HTML, and CSS.
