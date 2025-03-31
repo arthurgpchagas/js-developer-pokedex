@@ -1,0 +1,19 @@
+{
+  "name": "js-developer-pokedex",
+  "version": "1.0.0",
+  "description": "Funcionamento do Pokedex:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthurchagas01/js-developer-pokedex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arthurchagas01/js-developer-pokedex/issues"
+  },
+  "homepage": "https://github.com/Arthurchagas01/js-developer-pokedex#readme"
+}
