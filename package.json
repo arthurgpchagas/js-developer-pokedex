@@ -4,16 +4,18 @@
   "description": "Funcionamento do Pokedex:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx -y http-server . -p 5173 -c-1 -o",
+    "preview": "npx -y serve -s . -l 5173"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arthurchagas01/js-developer-pokedex.git"
+    "url": "git+https://github.com/arthurgpchagas/js-developer-pokedex.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Arthurchagas01/js-developer-pokedex/issues"
+    "url": "https://github.com/arthurgpchagas/js-developer-pokedex/issues"
   },
-  "homepage": "https://github.com/Arthurchagas01/js-developer-pokedex#readme"
+  "homepage": "https://github.com/arthurgpchagas/js-developer-pokedex#readme"
 }

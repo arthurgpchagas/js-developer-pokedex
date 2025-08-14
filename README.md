@@ -28,11 +28,11 @@ The Pokedex is a web-based application that serves as a central hub for Pokémon
 
 1. Clone this repository:
 
-  git clone https://github.com/your-username/pokedex.git
+  git clone https://github.com/arthurgpchagas/js-developer-pokedex.git
 
 2. Navigate to the project folder:
 
-  cd pokedex
+  cd js-developer-pokedex
 
 3. Start a local server:
 
