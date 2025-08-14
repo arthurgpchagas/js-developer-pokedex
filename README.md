@@ -44,7 +44,7 @@ The Pokedex is a web-based application that serves as a central hub for Pokémon
 
   * Using Node.js:
 
-    npx http-server -p 5500
+    npm run dev or npm run preview
 
 4. Open the browser and visit:
 
