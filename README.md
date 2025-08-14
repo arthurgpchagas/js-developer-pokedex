@@ -67,5 +67,3 @@ For more details, visit the PokéAPI **[documentation](https://pokeapi.co/docs/v
 * Add pagination for better browsing experience.
 
 * Improve UI/UX with animations and responsiveness.
-
-Made with ❤️ using JavaScript, HTML, and CSS.
